@@ -23,7 +23,6 @@ jobs:
           HD_ALD_USR: ${{secrets.ALD_USR}}
           HD_BASE_URL_OF_BOT: ${{secrets.BASE_URL_OF_BOT}}
           HD_OWNER_ID: ${{secrets.OWNER_ID}}
-          HD_DB_URI: ${{secrets.DB_URI}}
           HD_GD_INDEX_URL: ${{secrets.GD_INDEX_URL}}
           HD_RCLONE_BASE_DIR: ${{secrets.RCLONE_BASE_DIR}}
           
