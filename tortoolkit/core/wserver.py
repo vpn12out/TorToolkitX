@@ -283,7 +283,7 @@ async def set_priority(request):
 @routes.get("/")
 async def homepage(request):
     return web.Response(
-        text='<small>Hello world</small>',
+        text="<small>Hello world</small>",
         content_type="text/html",
     )
 
