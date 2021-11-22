@@ -1,0 +1,15 @@
+---
+application:
+  name: "bot-2"
+  project: "Asdf2"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "Bot2"
+  version: "12"
+routers:
+- name: "main-bot-2"
+  routes:
+  - application_name: "bot-2"
+    paths:
+    - "/*"
